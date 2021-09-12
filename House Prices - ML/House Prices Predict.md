@@ -1,12 +1,14 @@
 # House Prices Predict
 Competition link : https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
+Score from kaggle : 0.145.
+
 A task from kaggle which we should predict output as regression task.
 It has 81 fetures.
-## After checking realized  these tasks for data prepration:
+## After checking realized  these tasks for data prepration :
 - Handling missing values.
 - Encoding string data type.
-- Deleting columns which have many nan-values (outliers) .
+- Deleting columns which have many nan-values (outliers).
 
 ## Solutions
 
@@ -22,11 +24,11 @@ By searching a lot of time figured out, the most efficient algorithms is [Random
 - [linear regression ridge](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
 - [Polynomial regression](https://scikit-learn.org/stable/auto_examples/linear_model/plot_polynomial_interpolation.html)
 - [Bagging](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.BaggingRegressor.html)
-- [Boosting](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.BaggingRegressor.html)
+- [Boosting](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html)
 
 ## Libraries
 
-The libraries that I've used:
+The libraries that I've used :
 
 | Libraries | Links |
 | ------ | ------ |
